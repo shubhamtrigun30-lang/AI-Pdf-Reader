@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Credentials and private keys
+credentials/
+*_credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local model downloads and generated vector indexes
+models/
+model_cache/
+*.safetensors
+pytorch_model*.bin
+*.faiss
